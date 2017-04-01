@@ -12,6 +12,7 @@
 		DE1BCCE11E905CBF0061EB95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1BCCDF1E905CBF0061EB95 /* Main.storyboard */; };
 		DE1BCCE31E905CBF0061EB95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1BCCE21E905CBF0061EB95 /* Assets.xcassets */; };
 		DE1BCCE61E905CBF0061EB95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1BCCE41E905CBF0061EB95 /* LaunchScreen.storyboard */; };
+		DE1BCCEE1E906DE80061EB95 /* EmojiDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1BCCED1E906DE80061EB95 /* EmojiDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DE1BCCE21E905CBF0061EB95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE1BCCE51E905CBF0061EB95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE1BCCE71E905CBF0061EB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1BCCED1E906DE80061EB95 /* EmojiDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmojiDetails.swift; path = ../EmojiDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		DE1BCCDA1E905CBF0061EB95 /* Emoji Dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				DE1BCCED1E906DE80061EB95 /* EmojiDetails.swift */,
 				DE1BCCDB1E905CBF0061EB95 /* AppDelegate.swift */,
 				DE1BCCDD1E905CBF0061EB95 /* ViewController.swift */,
 				DE1BCCDF1E905CBF0061EB95 /* Main.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				DE1BCCDE1E905CBF0061EB95 /* ViewController.swift in Sources */,
 				DE1BCCDC1E905CBF0061EB95 /* AppDelegate.swift in Sources */,
+				DE1BCCEE1E906DE80061EB95 /* EmojiDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
