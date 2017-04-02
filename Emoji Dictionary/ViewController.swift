@@ -41,7 +41,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let VC = segue.destination as! EmojiDetails
         
-        VC.emoji = sender as! String
+        VC.emoji = (sender as! String)
     }
 
 }

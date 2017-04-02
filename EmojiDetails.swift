@@ -13,7 +13,7 @@ class EmojiDetails: UIViewController {
     @IBOutlet weak var emojiPic: UILabel!
     @IBOutlet weak var emojiDesc: UILabel!
     
-    var emoji = ""
+    var emoji:String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,10 +25,5 @@ class EmojiDetails: UIViewController {
         }
       
     }
-
- 
-    
-
-
 
 }
