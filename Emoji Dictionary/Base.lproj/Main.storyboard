@@ -58,14 +58,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👅" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWd-wK-ZcJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👅" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWd-wK-ZcJ">
                                 <rect key="frame" x="84" y="99" width="206" height="223"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="83"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="136"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9f-mL-Ckh">
-                                <rect key="frame" x="92" y="427" width="191" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category : Smiley" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQe-sb-qzg">
+                                <rect key="frame" x="65" y="475" width="245" height="41"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birth Year : 2010" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0d-Ec-8Gw">
+                                <rect key="frame" x="72" y="524" width="231" height="41"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="G9f-mL-Ckh">
+                                <rect key="frame" x="58" y="426" width="258" height="41"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -73,16 +85,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="G9f-mL-Ckh" firstAttribute="leading" secondItem="Fll-83-3bH" secondAttribute="leadingMargin" constant="76" id="26g-2h-hng"/>
-                            <constraint firstItem="pkI-Vb-Qzc" firstAttribute="top" secondItem="G9f-mL-Ckh" secondAttribute="bottom" constant="199" id="64h-yN-dhj"/>
+                            <constraint firstItem="FQe-sb-qzg" firstAttribute="centerX" secondItem="Fll-83-3bH" secondAttribute="centerX" id="03k-Qs-jN9"/>
+                            <constraint firstItem="FQe-sb-qzg" firstAttribute="top" secondItem="G9f-mL-Ckh" secondAttribute="bottom" constant="8" symbolic="YES" id="2iU-kI-sCu"/>
                             <constraint firstItem="ZWd-wK-ZcJ" firstAttribute="centerX" secondItem="Fll-83-3bH" secondAttribute="centerX" id="F75-bt-Q0h"/>
-                            <constraint firstItem="G9f-mL-Ckh" firstAttribute="centerX" secondItem="ZWd-wK-ZcJ" secondAttribute="centerX" id="G64-oZ-VGR"/>
+                            <constraint firstItem="l0d-Ec-8Gw" firstAttribute="centerX" secondItem="Fll-83-3bH" secondAttribute="centerX" id="GPa-dQ-0aq"/>
                             <constraint firstItem="ZWd-wK-ZcJ" firstAttribute="top" secondItem="zA7-T9-1oV" secondAttribute="bottom" constant="35" id="MdF-Eq-Dyh"/>
+                            <constraint firstItem="G9f-mL-Ckh" firstAttribute="centerX" secondItem="FQe-sb-qzg" secondAttribute="centerX" id="RPx-3c-9il"/>
                             <constraint firstItem="ZWd-wK-ZcJ" firstAttribute="leading" secondItem="Fll-83-3bH" secondAttribute="leadingMargin" constant="68" id="a0F-4W-4f5"/>
                             <constraint firstItem="pkI-Vb-Qzc" firstAttribute="top" secondItem="ZWd-wK-ZcJ" secondAttribute="bottom" constant="345" id="j7k-uE-2zW"/>
+                            <constraint firstItem="pkI-Vb-Qzc" firstAttribute="top" secondItem="FQe-sb-qzg" secondAttribute="bottom" constant="151" id="pNv-ZU-Lmb"/>
+                            <constraint firstItem="G9f-mL-Ckh" firstAttribute="leading" secondItem="Fll-83-3bH" secondAttribute="leadingMargin" constant="42" id="wyU-OU-7Ew"/>
+                            <constraint firstItem="l0d-Ec-8Gw" firstAttribute="top" secondItem="FQe-sb-qzg" secondAttribute="bottom" constant="8" symbolic="YES" id="zf5-X9-aOn"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="birthYearLbl" destination="l0d-Ec-8Gw" id="GWe-aB-Ee9"/>
+                        <outlet property="categoryLbl" destination="FQe-sb-qzg" id="2cK-C1-UNq"/>
                         <outlet property="emojiDesc" destination="G9f-mL-Ckh" id="Vzk-cH-9Fm"/>
                         <outlet property="emojiPic" destination="ZWd-wK-ZcJ" id="k1Y-gq-Uw8"/>
                     </connections>

@@ -10,20 +10,20 @@ import UIKit
 
 class EmojiDetails: UIViewController {
 
+    @IBOutlet weak var categoryLbl: UILabel!
     @IBOutlet weak var emojiPic: UILabel!
     @IBOutlet weak var emojiDesc: UILabel!
+    @IBOutlet weak var birthYearLbl: UILabel!
     
-    var emoji:String?
+    var emoji = Emoji()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-      emojiPic.text = emoji
-      
-        if emoji == "😃" {
-            emojiDesc.text = "happy face"
-        }
-      
-    }
+      emojiPic.text = emoji.stringEmoji
+      birthYearLbl.text = "Birth Year: \(emoji.birthYear)"
+      categoryLbl.text = "Category \(emoji.category)"
+      emojiDesc.text = emoji.definition
 
+    }
 }
